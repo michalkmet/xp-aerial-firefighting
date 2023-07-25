@@ -3,21 +3,19 @@ function waterbombs(fire, waterbombStrenght) {
     return 0;
   }
   let waterbombsCount = 0;
-  // let waterbombStillActive = 0;
-  console.log('fire.length: ', fire.length);
-  console.log('waterbombStrenght: ', waterbombStrenght);
-
   let fieldsArr = fire.split('Y');
-  console.log('fieldsArr: ', fieldsArr);
   for (let field of fieldsArr) {
-    console.log('field: ', field);
+    if (field === '') continue;
     if (field.length <= waterbombStrenght) {
       waterbombsCount++;
     } else {
-      // we need to split field by waterbombStrenght
+      let fieldsChunks = [];
+      for (let i = 0; i < field.length; i++) {
+        fieldsChunks.push(field.slice(0, waterbombStrenght));
+      }
+      return fieldsChunks.length;
     }
   }
-  console.log('waterbombsCount: ', waterbombsCount);
   return waterbombsCount;
 }
 
