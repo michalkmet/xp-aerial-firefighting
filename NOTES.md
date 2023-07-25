@@ -62,4 +62,4 @@ Pomodoro5:
 Pomodoro5: 
 - Refactor 
 - new user story
-- ⚠ TODO UAT3.4 -  User can pass "xxxYx", it should return 2 (waterbombs needed)
+- 🚧 UAT3.4 -  User can pass "xxxYx",1 - it should return 2 (waterbombs needed)
