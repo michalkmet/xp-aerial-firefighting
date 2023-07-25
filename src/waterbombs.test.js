@@ -23,3 +23,9 @@ describe('Story 1', () => {
     expect(waterbombs('xx', 3)).toBe(1);
   });
 });
+
+describe('Story 2', () => {
+  it('UAT2.1 -  User can pass "xx",1 - it should return 2', () => {
+    expect(waterbombs('xx', 1)).toBe(2);
+  });
+});
