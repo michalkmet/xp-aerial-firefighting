@@ -34,6 +34,6 @@ Pomodoro1:
 - ✅ UAT1.2 -  User can pass "Y",1 - it should return 0 (waterbomb needed)
 - ✅ UAT1.3 -  User can pass "xY",1 - it should return 1 (waterbomb needed)
 - ✅ UAT1.4 -  User can pass "Yx",2 - it should return 1 (waterbomb needed)
-- ⚠ TODO UAT1.5 -  User can pass "YY",2 - it should return 0 (waterbomb needed)
+- ✅ UAT1.5 -  User can pass "YY",2 - it should return 0 (waterbomb needed)
 - ⚠ TODO UAT1.6 -  User can pass "xx",2 - it should return 1 (waterbomb needed)
 - ⚠ TODO UAT1.7 -  User can pass "xx",3 - it should return 1 (waterbomb needed)

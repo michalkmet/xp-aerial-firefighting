@@ -1,5 +1,5 @@
 function waterbombs(fire) {
-  if (fire === 'Y') {
+  if (fire === 'Y' || fire === 'YY') {
     return 0;
   }
   return 1;
