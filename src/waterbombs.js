@@ -11,7 +11,7 @@ function waterbombs(fire, waterbombStrenght) {
       waterbombsCount++;
       if (waterbombStrenght > 1) {
         if (fire[i + 1] === 'x') {
-          break;
+          i++;
         }
       }
     } else {
