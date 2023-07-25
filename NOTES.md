@@ -52,4 +52,4 @@ Pomodoro3:
 - ✅ UAT2.6 -  User can pass "xxYxx",2 - it should return 2 (waterbombs needed)
 - ✅ UAT3.1 -  User can pass "xxYxxYxx",2 - it should return 3 (waterbombs needed)
 - ✅ UAT3.2 -  User can pass "YYYxxx",1 - it should return 3 (waterbombs needed)
-- ⚠ TODO UAT3.3 -  User can pass "xxxYxxxYxxx",3 - it should return 3 (waterbombs needed)
+- 🚧 UAT3.3 -  User can pass "xxxYxxxYxxx",3 - it should return 3 (waterbombs needed)

@@ -10,8 +10,16 @@ function waterbombs(fire, waterbombStrenght) {
     if (fire[i] === 'x') {
       waterbombsCount++;
       if (waterbombStrenght > 1) {
-        if (fire[i + 1] === 'x') {
-          i++;
+        for (let j = 0; j < waterbombStrenght; j++) {
+          console.log('j: ', j);
+          console.log('i: ', i);
+          console.log('i+j: ', i + j);
+          if (i + j != 0 && fire[i + j] === 'x') {
+            console.log("fire[i + j] === 'x'");
+            i++;
+          } else {
+            continue;
+          }
         }
       }
     } else {
