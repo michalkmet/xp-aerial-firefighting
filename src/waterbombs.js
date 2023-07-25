@@ -4,26 +4,17 @@ function waterbombs(fire, waterbombStrenght) {
   }
   let waterbombsCount = 0;
   // let waterbombStillActive = 0;
+  console.log('fire.length: ', fire.length);
+  console.log('waterbombStrenght: ', waterbombStrenght);
 
-  for (let i = 0; i < fire.length; i++) {
-    console.log('fire[i] ', fire[i]);
-    if (fire[i] === 'x') {
+  let fieldsArr = fire.split('Y');
+  console.log('fieldsArr: ', fieldsArr);
+  for (let field of fieldsArr) {
+    console.log('field: ', field);
+    if (field.length <= waterbombStrenght) {
       waterbombsCount++;
-      if (waterbombStrenght > 1) {
-        for (let j = 0; j < waterbombStrenght; j++) {
-          console.log('j: ', j);
-          console.log('i: ', i);
-          console.log('i+j: ', i + j);
-          if (i + j != 0 && fire[i + j] === 'x') {
-            console.log("fire[i + j] === 'x'");
-            i++;
-          } else {
-            continue;
-          }
-        }
-      }
     } else {
-      continue;
+      // we need to split field by waterbombStrenght
     }
   }
   console.log('waterbombsCount: ', waterbombsCount);
