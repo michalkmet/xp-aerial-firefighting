@@ -49,4 +49,7 @@ describe('Story 3', () => {
   it('UAT3.1 -  User can pass "xxYxxYxx",2 - it should return 3', () => {
     expect(waterbombs('xxYxxYxx', 2)).toBe(3);
   });
+  it('UAT3.2 -  User can pass "YYYxxx",1 - it should return 3', () => {
+    expect(waterbombs('YYYxxx', 1)).toBe(3);
+  });
 });
