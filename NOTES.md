@@ -29,4 +29,4 @@ Examples
 
 Pomodoro1:
 - ✅ Initial setup & refactor
-- ⚠ TODO User stories
+- ✅ User stories
