@@ -26,3 +26,7 @@ Examples
 - ✅ DONE
 
 ## Plans
+
+Pomodoro1:
+- ✅ Initial setup & refactor
+- ⚠ TODO User stories
