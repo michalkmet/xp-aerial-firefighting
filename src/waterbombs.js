@@ -10,8 +10,8 @@ function waterbombs(fire, waterbombStrenght) {
       waterbombsCount++;
     } else {
       let fieldsChunks = [];
-      for (let i = 0; i < field.length; i++) {
-        fieldsChunks.push(field.slice(0, waterbombStrenght));
+      for (let i = 0; i < field.length; i += waterbombStrenght) {
+        fieldsChunks.push(field.slice(i, waterbombStrenght));
       }
       waterbombsCount += fieldsChunks.length;
     }

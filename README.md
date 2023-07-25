@@ -49,5 +49,5 @@ Story 3 - User can pass 2D plane with more fires or buildings, it should return 
 - ✅ DONE UAT3.1 -  User can pass "xxYxxYxx",2 - it should return 3 (waterbombs needed)
 - ✅ DONE UAT3.2 -  User can pass "YYYxxx",1 - it should return 3 (waterbombs needed)
 - ✅ DONE UAT3.3 -  User can pass "xxxYxxxYxxx",3 - it should return 3 (waterbombs needed)
-- ⚠ TODO UAT3.4 -  User can pass "xxxYx",1 - it should return 4 (waterbombs needed)
-- ⚠ TODO UAT3.5 -  User can pass "xxxxxYxYx",2 - it should return 5 (waterbombs needed)
+- ✅ DONE UAT3.4 -  User can pass "xxxYx",1 - it should return 4 (waterbombs needed)
+- ✅ DONE UAT3.5 -  User can pass "xxxxxYxYx",2 - it should return 5 (waterbombs needed)
