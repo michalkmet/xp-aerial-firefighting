@@ -13,7 +13,7 @@ function waterbombs(fire, waterbombStrenght) {
       for (let i = 0; i < field.length; i++) {
         fieldsChunks.push(field.slice(0, waterbombStrenght));
       }
-      return fieldsChunks.length;
+      waterbombsCount += fieldsChunks.length;
     }
   }
   return waterbombsCount;
