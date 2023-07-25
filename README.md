@@ -28,25 +28,25 @@ Examples
 ## Backlog
 
 Story 1 - User can pass small 2D plane with only one fire or building, it should return 1 or 0 waterbomb needed
-UAT1.1 -  User can pass 'x',1 - it should return 1 (waterbomb needed)
-UAT1.2 -  User can pass 'Y',1 - it should return 0 (waterbomb needed)
-UAT1.3 -  User can pass 'xY',1 - it should return 1 (waterbomb needed)
-UAT1.4 -  User can pass 'Yx',2 - it should return 1 (waterbomb needed)
-UAT1.5 -  User can pass 'YY',2 - it should return 0 (waterbomb needed)
-UAT1.6 -  User can pass 'xx',2 - it should return 1 (waterbomb needed)
-UAT1.7 -  User can pass 'xx',3 - it should return 1 (waterbomb needed)
+- ⚠ TODO UAT1.1: User can pass 'x',1 - it should return 1 (waterbomb needed)
+- ⚠ TODO UAT1.2 -  User can pass 'Y',1 - it should return 0 (waterbomb needed)
+- ⚠ TODO UAT1.3 -  User can pass 'xY',1 - it should return 1 (waterbomb needed)
+- ⚠ TODO UAT1.4 -  User can pass 'Yx',2 - it should return 1 (waterbomb needed)
+- ⚠ TODO UAT1.5 -  User can pass 'YY',2 - it should return 0 (waterbomb needed)
+- ⚠ TODO UAT1.6 -  User can pass 'xx',2 - it should return 1 (waterbomb needed)
+- ⚠ TODO UAT1.7 -  User can pass 'xx',3 - it should return 1 (waterbomb needed)
 
 
 Story 2 - User can pass small 2D plane with more fires or buildings, it should return 2 (waterbomb needed)
-UAT2.1 -  User can pass 'xx',1 - it should return 2 (waterbombs needed)
-UAT2.2 -  User can pass 'Yxx',1 - it should return 2 (waterbombs needed)
-UAT2.3 -  User can pass 'xYx',1 - it should return 2 (waterbombs needed)
-UAT2.4 -  User can pass 'YYYxx',1 - it should return 2 (waterbombs needed)
-UAT2.5 -  User can pass 'xYx',2 - it should return 2 (waterbombs needed)
-UAT2.6 -  User can pass 'xxYxx',2 - it should return 2 (waterbombs needed)
+- ⚠ TODO UAT2.1 -  User can pass 'xx',1 - it should return 2 (waterbombs needed)
+- ⚠ TODO UAT2.2 -  User can pass 'Yxx',1 - it should return 2 (waterbombs needed)
+- ⚠ TODO UAT2.3 -  User can pass 'xYx',1 - it should return 2 (waterbombs needed)
+- ⚠ TODO UAT2.4 -  User can pass 'YYYxx',1 - it should return 2 (waterbombs needed)
+- ⚠ TODO UAT2.5 -  User can pass 'xYx',2 - it should return 2 (waterbombs needed)
+- ⚠ TODO UAT2.6 -  User can pass 'xxYxx',2 - it should return 2 (waterbombs needed)
 
 Story 3 - User can pass 2D plane with more fires or buildings, it should return how many waterbombs needed
-UAT3.1 -  User can pass 'xxYxxYxx',2 - it should return 3 (waterbombs needed)
-UAT3.2 -  User can pass 'YYYxxx',1 - it should return 3 (waterbombs needed)
-UAT3.3 -  User can pass 'xxxYxxxYxxx',3 - it should return 3 (waterbombs needed)
+- ⚠ TODO UAT3.1 -  User can pass 'xxYxxYxx',2 - it should return 3 (waterbombs needed)
+- ⚠ TODO UAT3.2 -  User can pass 'YYYxxx',1 - it should return 3 (waterbombs needed)
+- ⚠ TODO UAT3.3 -  User can pass 'xxxYxxxYxxx',3 - it should return 3 (waterbombs needed)
 

@@ -30,3 +30,4 @@ Examples
 Pomodoro1:
 - ✅ Initial setup & refactor
 - ✅ User stories
+- ✅ UAT1.1: User can pass "x",1 - it should return 1 (waterbomb needed)

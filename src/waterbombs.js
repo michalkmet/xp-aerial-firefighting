@@ -1,5 +1,5 @@
 function waterbombs() {
-  return 'hello';
+  return 1;
 }
 
 module.exports = waterbombs;
